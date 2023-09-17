@@ -146,3 +146,72 @@
 
 **Установить текстовые редакторы VIM (+ любые два по желанию NANO, MCEDIT, JOE и т.д.)**
 
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/19.jpg" alt="install redactors">
+</div>
+
+### Открытие редактора vim и ввод ника:
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/20.jpg" alt="open vim">
+</div>
+
+***Для сохранения в новый файл test_vim.txt:***  
+1. Нажимается ESC.  
+2. Нажимается ":".  
+3. В появившейся мини-командной строке программы прописывается wq test_vim.txt (для сохранения текста в файл с указанным названием и последующего выхода из программы).  
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/21.jpg" alt="save change">
+</div>
+
+
+- Проверка файла на сохранение введенного текста:
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/22.jpg" alt="check vim text">
+</div>
+
+### Открытие редактора nano и ввод ника:
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/23.jpg" alt="open nano">
+</div>
+
+- Нажатие Ctrl+X приводит к появлению следующего сообщения:
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/24.jpg" alt="nano move 1">
+</div>
+
+- При подтверждении сохранения (нажатие на Y) выходит поле для имени будущего файла. Прописывается ***test_nano.txt***:
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/25.jpg" alt="nano move 2">
+</div>
+
+- Проверка файла на сохранение введенного текста:
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/26.jpg" alt="check nano text">
+</div>
+
+### Открытие редактора joe и ввод ника:
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/27.jpg" alt="open joe">
+</div>
+
+- Нажатие Ctrl+K и W приводит к появлению поля для имени будущего файла. Прописывается ***test_joe.txt***:
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/28.jpg" alt="joe move 1">
+</div>
+
+**Нажатие Ctrl+C после сохраненных изменений приводит к выходу из программы.**
+
+- Проверка файла на сохранение введенного текста:
+
+<div align="center">
+  <img src="/home/deadline/DO1_Linux/src/29.jpg" alt="check joe text">
+</div>
