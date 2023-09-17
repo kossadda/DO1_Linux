@@ -5,13 +5,13 @@
 - Устанавка образа ОС в VirtualBox:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/1.jpg" alt="install OS">
+  <img src="1.jpg" alt="install OS">
 </div>
 
 - Проверка номера версии:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/2.jpg" alt="version">
+  <img src="2.jpg" alt="version">
 </div>
 
 
@@ -22,13 +22,13 @@
 - Создание нового пользователя user_two и добавление его в группу adm:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/3.jpg" alt="add user">
+  <img src="3.jpg" alt="add user">
 </div>
 
 - Вывод команды \ cat /etc/passwd:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/4.jpg" alt="show user">
+  <img src="4.jpg" alt="show user">
 </div>
 
 # Part 3. Настройка сети ОС 
@@ -40,25 +40,25 @@
 - Определение названия машины вида user-1
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/5.jpg" alt="change user">
+  <img src="5.jpg" alt="change user">
 </div>
 
 - Установка временной зоны, соответствующей нашему текущему местоположению (выбор производится из списка по команде **timedatectl list-timezones**) и отображение изменений на выводе консоли:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/6.jpg" alt="switch timezone">
+  <img src="6.jpg" alt="switch timezone">
 </div>
 
 - Установка набора сетевых инструментов:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/7.jpg" alt="tools install">
+  <img src="7.jpg" alt="tools install">
 </div>
 
 - Вывод названия сетевых интерфейсов:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/8.jpg" alt="show net name">
+  <img src="8.jpg" alt="show net name">
 </div>
 
 ***Информация:***  
@@ -67,7 +67,7 @@
 - Получение ip адреса устройства, на котором производится работа, от DHCP сервера.
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/9.jpg" alt="show ip adress">
+  <img src="9.jpg" alt="show ip adress">
 </div>
 
 ***Информация:***  
@@ -76,37 +76,37 @@
 - Вывод на экран внешнего ip-адрес шлюза:  
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/10.jpg" alt="show external ip">
+  <img src="10.jpg" alt="show external ip">
 </div>
 
 - Вывод на экран внутреннего IP-адрес шлюза, он же ip-адрес по умолчанию (gw):  
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/11.jpg" alt="show internal ip">
+  <img src="11.jpg" alt="show internal ip">
 </div>
 
 - Установка статичных настроек ip, gw, dns (с использованием публичных DNS серверов, например 1.1.1.1 или 8.8.8.8):  
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/12.jpg" alt="set static settings">
+  <img src="12.jpg" alt="set static settings">
 </div>
 
 - Сохранение изменений. Перезагрузка виртуальной машины:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/13.jpg" alt="save changes">
+  <img src="13.jpg" alt="save changes">
 </div>
 
 - Проверка изменений статичных сетевых настроек (ip, gw, dns) на соответстветствие заданным в предыдущем пункте:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/14.jpg" alt="check changes">
+  <img src="14.jpg" alt="check changes">
 </div>
 
 - Пингование удаленных хостов 1.1.1.1 и ya.ru. Убедить в наличии на выводе команды фразы “0% packet loss”:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/15.jpg" alt="ping hosts">
+  <img src="15.jpg" alt="ping hosts">
 </div>
 
 # Part 4. Обновление ОС 
@@ -116,7 +116,7 @@
 - После успешного обновления повторно применяем команду и проверяем установлена ли последняя версия:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/16.jpg" alt="check updates">
+  <img src="16.jpg" alt="check updates">
 </div>
 
 # Part 5. Использование команды sudo 
@@ -129,7 +129,7 @@
 - Добавление нового пользователя в группу обладающих привелегией **sudo**. Переключение на данного пользователя. Изменение hostname ОС от имени пользователя, созданного в пункте Part 2 (используя sudo):
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/17.jpg" alt="sudo root">
+  <img src="17.jpg" alt="sudo root">
 </div>
 
 # Part 6. Установка и настройка службы времени
@@ -139,7 +139,7 @@
 - Вывод времени, часового пояса, в соответствии с нашим местоположением:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/18.jpg" alt="time and date">
+  <img src="18.jpg" alt="time and date">
 </div>
 
 # Part 7. Установка и использование текстовых редакторов
@@ -147,65 +147,64 @@
 **Установить текстовые редакторы VIM (+ любые два по желанию NANO, MCEDIT, JOE и т.д.)**
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/19.jpg" alt="install redactors">
+  <img src="19.jpg" alt="install redactors">
 </div>
 
 ### Открытие редактора vim и ввод ника:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/20.jpg" alt="open vim">
+  <img src="20.jpg" alt="open vim">
 </div>
 
 ***Для сохранения в новый файл test_vim.txt:***  
 1. Нажимается ESC.  
 2. Нажимается ":".  
-3. В появившейся мини-командной строке программы прописывается wq test_vim.txt (для сохранения текста в файл с указанным названием и последующего выхода из программы).  
+3. В появившейся командной строке программы прописывается "wq test_vim.txt" (для сохранения текста в файл с указанным названием и последующего выхода из программы).  
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/21.jpg" alt="save change">
+  <img src="21.jpg" alt="save change">
 </div>
-
 
 - Проверка файла на сохранение введенного текста:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/22.jpg" alt="check vim text">
+  <img src="22.jpg" alt="check vim text">
 </div>
 
 ### Открытие редактора nano и ввод ника:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/23.jpg" alt="open nano">
+  <img src="23.jpg" alt="open nano">
 </div>
 
 - Нажатие Ctrl+X приводит к появлению следующего сообщения:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/24.jpg" alt="nano move 1">
+  <img src="24.jpg" alt="nano move 1">
 </div>
 
 - При подтверждении сохранения (нажатие на Y) выходит поле для имени будущего файла. Прописывается ***test_nano.txt***:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/25.jpg" alt="nano move 2">
+  <img src="25.jpg" alt="nano move 2">
 </div>
 
 - Проверка файла на сохранение введенного текста:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/26.jpg" alt="check nano text">
+  <img src="26.jpg" alt="check nano text">
 </div>
 
 ### Открытие редактора joe и ввод ника:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/27.jpg" alt="open joe">
+  <img src="27.jpg" alt="open joe">
 </div>
 
 - Нажатие Ctrl+K и W приводит к появлению поля для имени будущего файла. Прописывается ***test_joe.txt***:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/28.jpg" alt="joe move 1">
+  <img src="28.jpg" alt="joe move 1">
 </div>
 
 **Нажатие Ctrl+C после сохраненных изменений приводит к выходу из программы.**
@@ -213,5 +212,148 @@
 - Проверка файла на сохранение введенного текста:
 
 <div align="center">
-  <img src="/home/deadline/DO1_Linux/src/29.jpg" alt="check joe text">
+  <img src="29.jpg" alt="check joe text">
+</div>
+
+### Открытие test_vim.txt через vim и замена текста:
+
+<div align="center">
+  <img src="30.jpg" alt="change vim text">
+</div>
+
+***Для выхода из vim без сохранения изменений:***  
+1. Нажимается ESC.  
+2. Нажимается ":".  
+3. В появившейся командной строке программы прописывается "q!".  
+
+<div align="center">
+  <img src="31.jpg" alt="vim move">
+</div>
+
+- Проверка файла на отсутствие изменений в тексте:
+
+<div align="center">
+  <img src="32.jpg" alt="check vim text">
+</div>
+
+### Открытие test_nano.txt через nano и замена текста:
+
+<div align="center">
+  <img src="33.jpg" alt="change nano text">
+</div>
+
+- Нажатие Ctrl+X приводит к появлению следующего сообщения (нажимается N для подтверждения выхода без сохранения изменений):
+
+<div align="center">
+  <img src="34.jpg" alt="nano move">
+</div>
+
+- Проверка файла на отсутствие изменений в тексте:
+
+<div align="center">
+  <img src="35.jpg" alt="check nano text">
+</div>
+
+### Открытие test_joe.txt через joe и замена текста:
+
+<div align="center">
+  <img src="36.jpg" alt="change joe text">
+</div>
+
+- Нажатие Ctrl+C приводит к появлению следующего сообщения (нажимается y для подтверждения выхода без сохранения изменений):
+
+<div align="center">
+  <img src="37.jpg" alt="joe move">
+</div>
+
+- Проверка файла на отсутствие изменений в тексте:
+
+<div align="center">
+  <img src="38.jpg" alt="check joe text">
+</div>
+
+***Для поиска текста в vim необходимо:***  
+1. Нажать на "/".  
+2. Ввести шаблон поиска.  
+3. Нажать Enter, чтобы выполнить поиск.  
+4. Нажатие на "n" чтобы найти следующее вхождение, или "N" чтобы найти предыдущее вхождение.  
+
+<div align="center">
+  <img src="39.jpg" alt="search vim text">
+</div>
+
+***Для поиска текста в nano необходимо:***  
+1. Нажать на Ctrl+W.  
+2. Ввести шаблон поиска.  
+3. Нажать Enter, чтобы выполнить поиск.  
+4. Для повторения поиска далее по тексту повторно нажимается Ctrl+W и Enter, для хождения в обратную сторону Ctrl+Q.  
+
+<div align="center">
+  <img src="40.jpg" alt="search nano text">
+</div>
+
+***Для поиска текста в joe необходимо:***  
+1. Нажать Ctrl+K и F.  
+2. Ввести шаблон поиска и Enter.  
+3. Нажать Enter, чтобы выполнить поиск далее по тексту.  
+4. Для повторения поиска выполняются те же действия. Для поиска в обратную сторону необходимо после первого нажатия на Enter прописать b.  
+
+<div align="center">
+  <img src="41.jpg" alt="shablon vim">
+</div>
+
+<div align="center">
+  <img src="42.jpg" alt="forward move">
+</div>
+
+***Для замены текста в vim необходимо:***  
+1. Нажать на ":".  
+2. Прописать "%s" для поиска по всему тексту.  
+3. Через "/" ввести шаблон поиска.  
+4. Снова через "/" прописать шаблон замены и нажать Enter.  
+5. Для повторения команды выполнить все шаги заново.  
+
+<div align="center">
+  <img src="43.jpg" alt="change shablon vim">
+</div>
+
+***Для замены текста в nano необходимо:***  
+1. Нажать на "Ctrl+\".  
+2. Ввести шаблон поиска и нажать Enter.  
+3. Ввести шаблон замены и нажать Enter.  
+4. Подтвердить замену текста нажатием на "Y". Для продолжения замены повторно нажать на "Y".  
+
+<div align="center">
+  <img src="44.jpg" alt="change shablon nano 1">
+</div>
+
+<div align="center">
+  <img src="45.jpg" alt="change shablon nano 2">
+</div>
+
+<div align="center">
+  <img src="46.jpg" alt="change shablon nano 3">
+</div>
+
+***Для замены текста в joe необходимо:***  
+1. Нажать Ctrl+K и F.  
+2. Ввести шаблон поиска и Enter.  
+3. Прописать r в появившейся командной строке и нажать Enter.  
+4. Ввести шаблон замены и нажать Enter.  
+5. Подтвердить замену текста нажатием на "Y". Для продолжения замены повторно нажать на "Y".  
+
+<div align="center">
+  <img src="47.jpg" alt="change shablon joe 1">
+</div>
+
+<div align="center">
+  <img src="48.jpg" alt="change shablon joe 2">
+</div>
+
+<div align="center">
+  <img src="49.jpg" alt="change shablon joe 3">
+</div>
+
+<div align="center">
+  <img src="50.jpg" alt="change shablon joe 4">
 </div>
