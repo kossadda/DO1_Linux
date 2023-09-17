@@ -5,13 +5,13 @@
 - Устанавка образа ОС в VirtualBox:
 
 <div align="center">
-  <img src="1.jpg" alt="install OS">
+  <img src="screenshots/1.jpg" alt="install OS">
 </div>
 
 - Проверка номера версии:
 
 <div align="center">
-  <img src="2.jpg" alt="version">
+  <img src="screenshots/2.jpg" alt="version">
 </div>
 
 <br>
@@ -23,13 +23,13 @@
 - Создание нового пользователя user_two и добавление его в группу adm:
 
 <div align="center">
-  <img src="3.jpg" alt="add user">
+  <img src="screenshots/3.jpg" alt="add user">
 </div>
 
 - Вывод команды \ cat /etc/passwd:
 
 <div align="center">
-  <img src="4.jpg" alt="show user">
+  <img src="screenshots/4.jpg" alt="show user">
 </div>
 
 <br>
@@ -43,25 +43,25 @@
 - Определение названия машины вида user-1
 
 <div align="center">
-  <img src="5.jpg" alt="change user">
+  <img src="screenshots/5.jpg" alt="change user">
 </div>
 
 - Установка временной зоны, соответствующей нашему текущему местоположению (выбор производится из списка по команде **timedatectl list-timezones**) и отображение изменений на выводе консоли:
 
 <div align="center">
-  <img src="6.jpg" alt="switch timezone">
+  <img src="screenshots/6.jpg" alt="switch timezone">
 </div>
 
 - Установка набора сетевых инструментов:
 
 <div align="center">
-  <img src="7.jpg" alt="tools install">
+  <img src="screenshots/7.jpg" alt="tools install">
 </div>
 
 - Вывод названия сетевых интерфейсов:
 
 <div align="center">
-  <img src="8.jpg" alt="show net name">
+  <img src="screenshots/8.jpg" alt="show net name">
 </div>
 
 ***Информация:***  
@@ -70,7 +70,7 @@
 - Получение ip адреса устройства, на котором производится работа, от DHCP сервера.
 
 <div align="center">
-  <img src="9.jpg" alt="show ip adress">
+  <img src="screenshots/9.jpg" alt="show ip adress">
 </div>
 
 ***Информация:***  
@@ -79,37 +79,37 @@
 - Вывод на экран внешнего ip-адрес шлюза:  
 
 <div align="center">
-  <img src="10.jpg" alt="show external ip">
+  <img src="screenshots/10.jpg" alt="show external ip">
 </div>
 
 - Вывод на экран внутреннего IP-адрес шлюза, он же ip-адрес по умолчанию (gw):  
 
 <div align="center">
-  <img src="11.jpg" alt="show internal ip">
+  <img src="screenshots/11.jpg" alt="show internal ip">
 </div>
 
 - Установка статичных настроек ip, gw, dns (с использованием публичных DNS серверов, например 1.1.1.1 или 8.8.8.8):  
 
 <div align="center">
-  <img src="12.jpg" alt="set static settings">
+  <img src="screenshots/12.jpg" alt="set static settings">
 </div>
 
 - Сохранение изменений. Перезагрузка виртуальной машины:
 
 <div align="center">
-  <img src="13.jpg" alt="save changes">
+  <img src="screenshots/13.jpg" alt="save changes">
 </div>
 
 - Проверка изменений статичных сетевых настроек (ip, gw, dns) на соответстветствие заданным в предыдущем пункте:
 
 <div align="center">
-  <img src="14.jpg" alt="check changes">
+  <img src="screenshots/14.jpg" alt="check changes">
 </div>
 
 - Пингование удаленных хостов 1.1.1.1 и ya.ru. Убедить в наличии на выводе команды фразы “0% packet loss”:
 
 <div align="center">
-  <img src="15.jpg" alt="ping hosts">
+  <img src="screenshots/15.jpg" alt="ping hosts">
 </div>
 
 <br>
@@ -121,7 +121,7 @@
 - После успешного обновления повторно применяем команду и проверяем установлена ли последняя версия:
 
 <div align="center">
-  <img src="16.jpg" alt="check updates">
+  <img src="screenshots/16.jpg" alt="check updates">
 </div>
 
 <br>
@@ -136,7 +136,7 @@
 - Добавление нового пользователя в группу обладающих привелегией **sudo**. Переключение на данного пользователя. Изменение hostname ОС от имени пользователя, созданного в пункте Part 2 (используя sudo):
 
 <div align="center">
-  <img src="17.jpg" alt="sudo root">
+  <img src="screenshots/17.jpg" alt="sudo root">
 </div>
 
 # Part 6. Установка и настройка службы времени
@@ -146,7 +146,7 @@
 - Вывод времени, часового пояса, в соответствии с нашим местоположением:
 
 <div align="center">
-  <img src="18.jpg" alt="time and date">
+  <img src="screenshots/18.jpg" alt="time and date">
 </div>
 
 <br>
@@ -156,7 +156,7 @@
 **Установить текстовые редакторы VIM (+ любые два по желанию NANO, MCEDIT, JOE и т.д.)**  <br>
 
 <div align="center">
-  <img src="19.jpg" alt="install redactors">
+  <img src="screenshots/19.jpg" alt="install redactors">
 </div>
 
 <br>
@@ -164,7 +164,7 @@
 ### Открытие редактора vim и ввод ника:
 
 <div align="center">
-  <img src="20.jpg" alt="open vim">
+  <img src="screenshots/20.jpg" alt="open vim">
 </div>
 
 ***Для сохранения в новый файл test_vim.txt:***  
@@ -173,49 +173,49 @@
 3. В появившейся командной строке программы прописывается "wq test_vim.txt" (для сохранения текста в файл с указанным названием и последующего выхода из программы).  
 
 <div align="center">
-  <img src="21.jpg" alt="save change">
+  <img src="screenshots/21.jpg" alt="save change">
 </div>
 
 - Проверка файла на сохранение введенного текста:
 
 <div align="center">
-  <img src="22.jpg" alt="check vim text">
+  <img src="screenshots/22.jpg" alt="check vim text">
 </div>
 
 ### Открытие редактора nano и ввод ника:
 
 <div align="center">
-  <img src="23.jpg" alt="open nano">
+  <img src="screenshots/23.jpg" alt="open nano">
 </div>
 
 - Нажатие Ctrl+X приводит к появлению следующего сообщения:
 
 <div align="center">
-  <img src="24.jpg" alt="nano move 1">
+  <img src="screenshots/24.jpg" alt="nano move 1">
 </div>
 
 - При подтверждении сохранения (нажатие на Y) выходит поле для имени будущего файла. Прописывается ***test_nano.txt***:
 
 <div align="center">
-  <img src="25.jpg" alt="nano move 2">
+  <img src="screenshots/25.jpg" alt="nano move 2">
 </div>
 
 - Проверка файла на сохранение введенного текста:
 
 <div align="center">
-  <img src="26.jpg" alt="check nano text">
+  <img src="screenshots/26.jpg" alt="check nano text">
 </div>
 
 ### Открытие редактора joe и ввод ника:
 
 <div align="center">
-  <img src="27.jpg" alt="open joe">
+  <img src="screenshots/27.jpg" alt="open joe">
 </div>
 
 - Нажатие Ctrl+K и W приводит к появлению поля для имени будущего файла. Прописывается ***test_joe.txt***:
 
 <div align="center">
-  <img src="28.jpg" alt="joe move 1">
+  <img src="screenshots/28.jpg" alt="joe move 1">
 </div>
 
 **Нажатие Ctrl+C после сохраненных изменений приводит к выходу из программы.**
@@ -223,7 +223,7 @@
 - Проверка файла на сохранение введенного текста:
 
 <div align="center">
-  <img src="29.jpg" alt="check joe text">
+  <img src="screenshots/29.jpg" alt="check joe text">
 </div>
 
 <br>
@@ -231,7 +231,7 @@
 ### Открытие test_vim.txt через vim и замена текста:
 
 <div align="center">
-  <img src="30.jpg" alt="change vim text">
+  <img src="screenshots/30.jpg" alt="change vim text">
 </div>
 
 ***Для выхода из vim без сохранения изменений:***  
@@ -240,49 +240,49 @@
 3. В появившейся командной строке программы прописывается "q!".  
 
 <div align="center">
-  <img src="31.jpg" alt="vim move">
+  <img src="screenshots/31.jpg" alt="vim move">
 </div>
 
 - Проверка файла на отсутствие изменений в тексте:
 
 <div align="center">
-  <img src="32.jpg" alt="check vim text">
+  <img src="screenshots/32.jpg" alt="check vim text">
 </div>
 
 ### Открытие test_nano.txt через nano и замена текста:
 
 <div align="center">
-  <img src="33.jpg" alt="change nano text">
+  <img src="screenshots/33.jpg" alt="change nano text">
 </div>
 
 - Нажатие Ctrl+X приводит к появлению следующего сообщения (нажимается N для подтверждения выхода без сохранения изменений):
 
 <div align="center">
-  <img src="34.jpg" alt="nano move">
+  <img src="screenshots/34.jpg" alt="nano move">
 </div>
 
 - Проверка файла на отсутствие изменений в тексте:
 
 <div align="center">
-  <img src="35.jpg" alt="check nano text">
+  <img src="screenshots/35.jpg" alt="check nano text">
 </div>
 
 ### Открытие test_joe.txt через joe и замена текста:
 
 <div align="center">
-  <img src="36.jpg" alt="change joe text">
+  <img src="screenshots/36.jpg" alt="change joe text">
 </div>
 
 - Нажатие Ctrl+C приводит к появлению следующего сообщения (нажимается y для подтверждения выхода без сохранения изменений):
 
 <div align="center">
-  <img src="37.jpg" alt="joe move">
+  <img src="screenshots/37.jpg" alt="joe move">
 </div>
 
 - Проверка файла на отсутствие изменений в тексте:
 
 <div align="center">
-  <img src="38.jpg" alt="check joe text">
+  <img src="screenshots/38.jpg" alt="check joe text">
 </div>
 
 <br>
@@ -294,7 +294,7 @@
 4. Нажатие на "n" чтобы найти следующее вхождение, или "N" чтобы найти предыдущее вхождение.  
 
 <div align="center">
-  <img src="39.jpg" alt="search vim text">
+  <img src="screenshots/39.jpg" alt="search vim text">
 </div>
 
 ***Для поиска текста в nano необходимо:***  
@@ -304,7 +304,7 @@
 4. Для повторения поиска далее по тексту повторно нажимается Ctrl+W и Enter, для хождения в обратную сторону Ctrl+Q.  
 
 <div align="center">
-  <img src="40.jpg" alt="search nano text">
+  <img src="screenshots/40.jpg" alt="search nano text">
 </div>
 
 ***Для поиска текста в joe необходимо:***  
@@ -314,11 +314,11 @@
 4. Для повторения поиска выполняются те же действия. Для поиска в обратную сторону необходимо после первого нажатия на Enter прописать b.  
 
 <div align="center">
-  <img src="41.jpg" alt="shablon vim">
+  <img src="screenshots/41.jpg" alt="shablon vim">
 </div>
 
 <div align="center">
-  <img src="42.jpg" alt="forward move">
+  <img src="screenshots/42.jpg" alt="forward move">
 </div>
 
 <br>
@@ -331,7 +331,7 @@
 5. Для повторения команды выполнить все шаги заново.  
 
 <div align="center">
-  <img src="43.jpg" alt="change shablon vim">
+  <img src="screenshots/43.jpg" alt="change shablon vim">
 </div>
 
 ***Для замены текста в nano необходимо:***  
@@ -341,15 +341,15 @@
 4. Подтвердить замену текста нажатием на "Y". Для продолжения замены повторно нажать на "Y".  
 
 <div align="center">
-  <img src="44.jpg" alt="change shablon nano 1">
+  <img src="screenshots/44.jpg" alt="change shablon nano 1">
 </div>
 
 <div align="center">
-  <img src="45.jpg" alt="change shablon nano 2">
+  <img src="screenshots/45.jpg" alt="change shablon nano 2">
 </div>
 
 <div align="center">
-  <img src="46.jpg" alt="change shablon nano 3">
+  <img src="screenshots/46.jpg" alt="change shablon nano 3">
 </div>
 
 ***Для замены текста в joe необходимо:***  
@@ -360,19 +360,19 @@
 5. Подтвердить замену текста нажатием на "Y". Для продолжения замены повторно нажать на "Y".  
 
 <div align="center">
-  <img src="47.jpg" alt="change shablon joe 1">
+  <img src="screenshots/47.jpg" alt="change shablon joe 1">
 </div>
 
 <div align="center">
-  <img src="48.jpg" alt="change shablon joe 2">
+  <img src="screenshots/48.jpg" alt="change shablon joe 2">
 </div>
 
 <div align="center">
-  <img src="49.jpg" alt="change shablon joe 3">
+  <img src="screenshots/49.jpg" alt="change shablon joe 3">
 </div>
 
 <div align="center">
-  <img src="50.jpg" alt="change shablon joe 4">
+  <img src="screenshots/50.jpg" alt="change shablon joe 4">
 </div>
 
 <br>
@@ -387,25 +387,25 @@
 - Установка службы SSHd:
 
 <div align="center">
-  <img src="51.jpg" alt="install SSHd">
+  <img src="screenshots/51.jpg" alt="install SSHd">
 </div>
 
 - Настройка автозапуска службы:
 
 <div align="center">
-  <img src="52.jpg" alt="autostart SSHd">
+  <img src="screenshots/52.jpg" alt="autostart SSHd">
 </div>
 
 - Изменение конфига:
 
 <div align="center">
-  <img src="53.jpg" alt="change config">
+  <img src="screenshots/53.jpg" alt="change config">
 </div>
 
 - Проверка на запущенный процесс:
 
 <div align="center">
-  <img src="54.jpg" alt="check SSHd">
+  <img src="screenshots/54.jpg" alt="check SSHd">
 </div>
 
 ***Информация:***  
@@ -418,7 +418,7 @@
 - Вывод команды netstat -tan:
 
 <div align="center">
-  <img src="55.jpg" alt="check netstat -tan">
+  <img src="screenshots/55.jpg" alt="check netstat -tan">
 </div>
 
 ***Информация:***  
@@ -454,7 +454,7 @@
 ***Вывод команды htop отсортированной по PID:***  
 
 <div align="center">
-  <img src="56.jpg" alt="sort by PID">
+  <img src="screenshots/56.jpg" alt="sort by PID">
 </div>
 
 <br>
@@ -462,37 +462,37 @@
 ***Вывод команды htop отсортированной по PERCENT_CPU:***  
 
 <div align="center">
-  <img src="57.jpg" alt="sort by PERCENT_CPU">
+  <img src="screenshots/57.jpg" alt="sort by PERCENT_CPU">
 </div>
 
 ***Вывод команды htop отсортированной по PERCENT_MEM:***  
 
 <div align="center">
-  <img src="58.jpg" alt="sort by PERCENT_MEM">
+  <img src="screenshots/58.jpg" alt="sort by PERCENT_MEM">
 </div>
 
 ***Вывод команды htop отсортированной по TIME:***  
 
 <div align="center">
-  <img src="59.jpg" alt="sort by TIME">
+  <img src="screenshots/59.jpg" alt="sort by TIME">
 </div>
 
 ***Вывод команды htop отфильтрованной для процесса sshd:***  
 
 <div align="center">
-  <img src="60.jpg" alt="filtred by sshd procces">
+  <img src="screenshots/60.jpg" alt="filtred by sshd procces">
 </div>
 
 ***Вывод команды htop с процессом syslog, найденным, используя поиск:***  
 
 <div align="center">
-  <img src="61.jpg" alt="with syslog procces">
+  <img src="screenshots/61.jpg" alt="with syslog procces">
 </div>
 
 ***Вывод команды htop с добавленным выводом hostname, clock и uptime:***  
 
 <div align="center">
-  <img src="62.jpg" alt="with hostname, clock, uptime">
+  <img src="screenshots/62.jpg" alt="with hostname, clock, uptime">
 </div>
 
 # Part 10. Использование утилиты fdisk
@@ -502,7 +502,7 @@
 **Disk /dev/sda, size: 25 GiB, 26843545600 bytes, 52428800 sectors**
 
 <div align="center">
-  <img src="63.jpg" alt="fdisk -l">
+  <img src="screenshots/63.jpg" alt="fdisk -l">
 </div>
 
 <br>
@@ -513,13 +513,13 @@
 **2. Запустить команду df -Th.**  <br>
 
 <div align="center">
-  <img src="64.jpg" alt="df /">
+  <img src="screenshots/64.jpg" alt="df /">
 </div>
 
 ***Единица измерения в выводе: bytes***  <br>
 
 <div align="center">
-  <img src="65.jpg" alt="df -Th /">
+  <img src="screenshots/65.jpg" alt="df -Th /">
 </div>
 
 ***Тип файловой системы раздела: ext4***  <br>
@@ -528,36 +528,36 @@
 
 **1. Запустить команду du.**  
 **2. Вывести размер папок /home, /var, /var/log (в байтах, в человекочитаемом виде)**  
-**3. Вывести размер всего содержимого в /var/log (не общее, а каждого вложенного элемента, используя *)**  <br>
+**3. Вывести размер всего содержимого в /var/log (не общее, а каждого вложенного элемента, используя "*")**  <br>
 
 - Стандартная команда du:  
 
 <div align="center">
-  <img src="66.jpg" alt="du">
+  <img src="screenshots/66.jpg" alt="du">
 </div>
 
 - Вывод размера папок /home:  
 
 <div align="center">
-  <img src="67.jpg" alt="du -h /home">
+  <img src="screenshots/67.jpg" alt="du -h /home">
 </div>
 
 - Вывод размера папок /var:  
 
 <div align="center">
-  <img src="68.jpg" alt="du -h /var">
+  <img src="screenshots/68.jpg" alt="du -h /var">
 </div>
 
 - Вывод размера папок /var/log:  
 
 <div align="center">
-  <img src="69.jpg" alt="du -h /var/log">
+  <img src="screenshots/69.jpg" alt="du -h /var/log">
 </div>
 
 - Вывод размера всего содержимого в /var/log (не общее, а каждого вложенного элемента, используя *):  
 
 <div align="center">
-  <img src="70.jpg" alt="du -h /var/log/*">
+  <img src="screenshots/70.jpg" alt="du -h /var/log/*">
 </div>
 
 <br>
@@ -570,25 +570,25 @@
 - Установка ncdu:
 
 <div align="center">
-  <img src="71.jpg" alt="install ncdu">
+  <img src="screenshots/71.jpg" alt="install ncdu">
 </div>
 
 - Вывод размера папок /home:  
 
 <div align="center">
-  <img src="72.jpg" alt="ncdu /home">
+  <img src="screenshots/72.jpg" alt="ncdu /home">
 </div>
 
 - Вывод размера папок /var:  
 
 <div align="center">
-  <img src="73.jpg" alt="ncdu /var">
+  <img src="screenshots/73.jpg" alt="ncdu /var">
 </div>
 
 - Вывод размера папок /var/log:  
 
 <div align="center">
-  <img src="74.jpg" alt="ncdu /var/log">
+  <img src="screenshots/74.jpg" alt="ncdu /var/log">
 </div>
 
 **Размеры папок на выводе ncdu совпадают с выводом du.**  
@@ -605,7 +605,7 @@
 - Данные о времени последней успешной авторизации, имени пользователя и методе входа в систему:
 
 <div align="center">
-  <img src="75.jpg" alt="auth info">
+  <img src="screenshots/75.jpg" alt="auth info">
 </div>
 
 - Производится перезапуск службы SSHd (sudo systemctl restart sshd).  
@@ -613,7 +613,7 @@
 - Вывод с сообщением о рестарте службы:  
 
 <div align="center">
-  <img src="76.jpg" alt="restart info">
+  <img src="screenshots/76.jpg" alt="restart info">
 </div>
 
 # Part 15. Использование планировщика заданий CRON 
@@ -624,23 +624,23 @@
 - Внесение в планировщик заданий конфигурации для запуска uptime через каждые 2 минуты:  
 
 <div align="center">
-  <img src="77.jpg" alt="uptime every 2 minute">
+  <img src="screenshots/77.jpg" alt="uptime every 2 minute">
 </div>
 
 - Вывод в системном журнале строчек о минимум двух выполнениях:  
 
 <div align="center">
-  <img src="78.jpg" alt="three time using uptime">
+  <img src="screenshots/78.jpg" alt="three time using uptime">
 </div>
 
 - Вывод на экран текущих заданий для CRON:  
 
 <div align="center">
-  <img src="79.jpg" alt="running cron tasks">
+  <img src="screenshots/79.jpg" alt="running cron tasks">
 </div>
 
 - Удаление всех заданий из планировщика заданий:  
 
 <div align="center">
-  <img src="80.jpg" alt="delete all tasks">
+  <img src="screenshots/80.jpg" alt="delete all tasks">
 </div>
